@@ -2,8 +2,6 @@ package es.deusto.sd.plasSB.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-
 import es.deusto.sd.plasSB.entity.Plant;
 
 /**
