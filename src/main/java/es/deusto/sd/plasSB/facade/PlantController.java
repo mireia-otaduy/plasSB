@@ -10,7 +10,7 @@ import java.util.List;
  * REST controller exposing endpoints for Plant operations.
  */
 @RestController
-@RequestMapping("/plant")
+@RequestMapping("/plants")
 public class PlantController {
 
     private final PlantService plantService;
@@ -23,7 +23,7 @@ public class PlantController {
      * Get capacity for a specific plant by ID.
      * Example: GET /plant/1/capacity
      */
-    @GetMapping("/{id}/capacity")
+    @GetMapping("/{id}/capacities")
     public int getCapacity(@PathVariable("id") long id) {
         return plantService.getPlantCapacity(id);
     }
